@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+.mainNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 80%;
+}
+ul{
+    display: flex;
+    gap: 35px;
+    /* align-items: center; */
+}
+li{
+    list-style: none;
+    font-size: 25px;
+}
+li:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width: 325px) {
+    .img{
+        width: 100px;
+    }
+    .mainNav{
+        width: 100%;
+        justify-content: space-between;
+    }
+    li{
+        font-size: 12px;
+    }
+    ul{
+        gap: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 380px) and (min-) {
+
+
+
+
+
+}
